@@ -9,8 +9,8 @@ public class Conn {
     public Conn(){
         
         try {
-            String url = "jdbc:mysql://localhost:3306/management";
-            String user = "root";
+            String url = " ";
+            String user = " ";
             String Pass = "";
 
             c = DriverManager.getConnection(url, user, Pass);
